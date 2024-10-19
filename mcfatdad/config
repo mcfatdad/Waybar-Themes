@@ -1,0 +1,61 @@
+// __        __          _                 
+// \ \      / /_ _ _   _| |__   __ _ _ __  
+//  \ \ /\ / / _` | | | | '_ \ / _` | '__| 
+//   \ V  V / (_| | |_| | |_) | (_| | |    
+//    \_/\_/ \__,_|\__, |_.__/ \__,_|_|    
+//                 |___/                   
+//  
+// by Stephan Raabe (2023) 
+// ----------------------------------------------------- 
+//
+{
+    // General Settings
+
+    // Position TOP
+    "layer": "top",
+    "margin-bottom": 0,
+
+
+    // Load Modules
+    "include": [
+        "~/.config/ml4w/settings/waybar-quicklinks.json",
+        "~/.config/waybar/themes/mcfatdad/modules.json"
+    ],
+
+    // Modules Left
+    "modules-left": [
+    "custom/appmenu",
+        "custom/codium",
+        "custom/email",
+        "custom/music-player",
+        "custom/netflix",
+        "custom/youtube",
+        "custom/browser",
+        "custom/filemanager"
+    ],
+
+    // Modules Center
+    "modules-center": [
+        "hyprland/workspaces"
+    ],
+
+    // Modules Right    
+    "modules-right": [
+        "custom/updates",
+        "pulseaudio",
+        "pulseaudio/slider",
+        "bluetooth",
+        "network",
+        "custom/cliphist",
+"       tray",
+        "group/settings",
+        "custom/exit",
+        "custom/ml4w-welcome",
+        "clock"
+    ],
+    "pulseaudio/slider": {
+        "min": 0,
+        "max": 100,
+        "orientation": "horizontal"
+    }
+}
