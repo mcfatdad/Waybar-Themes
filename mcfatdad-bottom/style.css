@@ -36,7 +36,7 @@
 
 window#waybar {
     background-color: rgba(0,0,0,0.8);
-    border-bottom: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
     /* color: #FFFFFF; */
     transition-property: background-color;
     transition-duration: 0.5s;
@@ -181,7 +181,9 @@ window#waybar.empty #window {
 #custom-music-player,
 #custom-youtube,
 #custom-netflix,
-#custom-browser, 
+#custom-browser,
+#custom-terminal,
+#custom-steam,
 #custom-keybindings, 
 #custom-outlook, 
 #custom-filemanager,

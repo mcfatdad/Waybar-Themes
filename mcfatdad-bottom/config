@@ -13,8 +13,8 @@
 
     // General Settings
     "position": "bottom",
-    "margin-top": 0,
-    "margin-bottom": 14,
+    "margin-top": 14,
+    "margin-bottom": 0,
     "layer": "top",
     "margin-left": 0,
     "margin-right": 0,
@@ -35,8 +35,10 @@
         "custom/music-player",
         "custom/netflix",
         "custom/youtube",
+        "custom/terminal",
         "custom/browser",
-        "custom/filemanager"
+        "custom/filemanager",
+        "custom/steam"
     ],
 
     // Modules Center

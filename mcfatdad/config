@@ -10,35 +10,31 @@
 //
 {
     // General Settings
-
-    // Position TOP
+    // Position TOP 
     "layer": "top",
     "margin-bottom": 0,
-
-
     // Load Modules
     "include": [
         "~/.config/ml4w/settings/waybar-quicklinks.json",
         "~/.config/waybar/themes/mcfatdad/modules.json"
     ],
-
     // Modules Left
     "modules-left": [
-    "custom/appmenu",
+        "custom/appmenu",
         "custom/codium",
         "custom/email",
         "custom/music-player",
         "custom/netflix",
         "custom/youtube",
         "custom/browser",
-        "custom/filemanager"
+        "custom/terminal",
+        "custom/filemanager",
+        "custom/steam"
     ],
-
     // Modules Center
     "modules-center": [
         "hyprland/workspaces"
     ],
-
     // Modules Right    
     "modules-right": [
         "custom/updates",
@@ -47,7 +43,7 @@
         "bluetooth",
         "network",
         "custom/cliphist",
-"       tray",
+        "tray",
         "group/settings",
         "custom/exit",
         "custom/ml4w-welcome",
